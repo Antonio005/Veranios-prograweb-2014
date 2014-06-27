@@ -1,0 +1,93 @@
+<html>
+	<head>
+		<title> pagina del mundial</title>
+		<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	</head>
+	
+	<body background="img/imgres2.jpg">
+	
+		<table class="menu" align="center">
+			<tr>
+				<th><a href="Lista_Equipos.html">Lista de equipos</a></th>
+				<th><a href="Calendario_Resultados.html">Calendario y resultados</a></th>
+				<th><a href="Tabla_Grupos.html">Tabla de grupos</a></th>
+				
+			</tr>
+			<tr>
+				<th><a href="Goleo_Individual.html">Goleo Individual</a></th>
+				<th><a href="Goleo_Equipo.html">Goleo por equipos</a></th>
+				<th><a href="Estadisticas.html">Estad&iacute;sticas</a></th>
+			</tr>
+			<tr>
+				<th colspan="3"><a href="Noticias.html">Noticias</a></th>
+			</tr>
+			<tr>
+				<th colspan="3"><a href="Captura_Resultados.html">Captura de resultados</a></th>
+			</tr>
+			<tr>
+				<th colspan="3"><a href="Registrar_Equipos.html">Registrar equipos</a></th>
+			</tr>
+			<tr>
+				<th colspan="3"><a href="Registrar_Jugadores.html">Registrar jugadores</a></th>
+			</tr>
+		</table>
+		
+		<div align="center">
+			<img src="img/copa_2014.jpg" width="200px" height="200px">
+		</div>
+		<div align="center">
+			<form method="post" action="#" ENCTYPE="multipart/form-data>
+				<label for="id_pais"> Pais </label>
+				<select id="id_continente" name="id_continente" >
+					<option selected disabled> seleccione uno </option>
+					<option value="1"> Brazil </option>
+					<option value="2"> Mexico </option>
+					<option value="3"> Croacia</option>
+					<option value="4"> Camerun</option>
+					<option value="5"> Holanda </option>
+					<option value="6"> Chile</option>
+					<option value="7"> España</option>
+					<option value="8"> Australia</option>
+					<option value="9"> Colombia </option>
+					<option value="10"> Gracia</option>
+					<option value="11"> Costa de Marfil</option>
+					<option value="12"> Japon</option>
+					<option value="13"> Costa Rica </option>
+					<option value="14"> Uruguay</option>
+					<option value="15"> Italia</option>
+					<option value="16"> Inglaterra</option>
+					<option value="17"> Francia</option>
+					<option value="18"> Suiza </option>
+					<option value="19"> Ecuador</option>
+					<option value="20"> Honduras</option>
+				</select><br>
+				
+				<label for="id_continente"> Seleccione un continente </label>
+				<select id="id_continente" name="id_continente" >
+					<option selected disabled> seleccione uno </option>
+					<option value="1"> America </option>
+					<option value="2"> Europa </option>
+					<option value="3"> Asia</option>
+					<option value="4"> Africa</option>
+					<option value="5"> Oceania</option>
+				</select><br>
+				
+				<label for="id_escudo"> Escudo </label>
+				<input type="file" id="id_escudo" name="id_escudo"><br>
+				
+				<label for="id_nombre"> nombre </label>
+				<input type="text" id="id_nombre" name="id_nombre"><br>
+				
+				<label for="id_uniforme"> Uniforme </label>
+				<input type="file" id="id_uniforme" name="id_uniforme"><br>
+				
+				<label for="id_club"> club proveniente </label>
+				<input type="text" id="id_club" name="id_club"><br>
+				
+				<input type="submit" value="Guardar">
+				
+				
+			</form>
+		</div>
+	</body>
+</html>
